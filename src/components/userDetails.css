@@ -1,0 +1,45 @@
+.user-details {
+  margin: 55px;
+}
+.pop-up-container {
+  margin: 12% 4%;
+}
+
+.input-title {
+  border: 2px solid black;
+  width: 18vw;
+  margin-left: 21px;
+  height: 20px;
+}
+
+.input-title-item {
+  margin: 50px;
+}
+
+.input-title-body {
+  border: 2px solid black;
+  width: 18vw;
+  margin-left: 15px;
+}
+.button-cancel {
+  margin-left: 40%;
+  width: 20%;
+}
+
+.container-posts {
+  margin-top: 5%;
+}
+
+.item-posts {
+  border: 3px solid black;
+  width: 100vw;
+  margin-bottom: 10px !important;
+  padding: 10px 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: cursive;
+}
+
+.post-title-class {
+  padding-bottom: 2px;
+}

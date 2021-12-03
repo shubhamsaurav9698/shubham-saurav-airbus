@@ -1,0 +1,47 @@
+.card-layout {
+  columns: 4;
+  margin: 35px;
+  column-gap: 90px;
+}
+.card-class {
+  margin-bottom: 1em;
+  height: 340px;
+  border: 2px solid black;
+}
+
+.details-container {
+  border: 2px solid black;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
+  width: 220px !important;
+  height: 50px;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+  .card-layout {
+    columns: 2;
+    margin: 25px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .card-layout {
+    columns: 1;
+    margin: 25px;
+  }
+}
+
+.link-item-class {
+  padding-bottom: 20px;
+  color: rgb(71, 71, 230);
+  text-decoration: underline;
+}
+
+.item-class {
+  padding-bottom: 20px;
+}
